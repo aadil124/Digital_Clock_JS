@@ -18,7 +18,7 @@ function showTime() {
   s = s < 10 ? "0" + s : s;
 
   var time = h + " : " + m + " : " + s + " " + session;
-  document.getElementsByTagName("h1")[0].innerText = time;
+  document.getElementsByTagName("h2")[0].innerText = time;
 
   setTimeout(showTime, 1000);
 }
